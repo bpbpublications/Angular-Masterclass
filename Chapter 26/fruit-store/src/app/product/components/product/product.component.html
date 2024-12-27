@@ -1,0 +1,7 @@
+<div id="product_page">
+    <div class="product-list">
+            <app-product-card *ngFor="let product of products" class="product-card-container col"
+            [ngClass]="{'is-tablet-portrait': isTabletPortrait, 'is-phone-portrait': isPhonePortrait}" [product]="product"></app-product-card>
+        <div *ngIf="!isPhonePortrait"></div>
+    </div>
+</div>
