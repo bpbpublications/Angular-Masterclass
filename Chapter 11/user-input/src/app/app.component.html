@@ -1,0 +1,13 @@
+<input (input)="onChange($event)">
+
+<input (keyup.enter)="onKeyup($event)" />
+
+<input type="checkbox" (change)="onCheckboxChange($event)">
+<label>
+  Checkbox
+</label>
+
+<input type="checkbox" [(ngModel)]="checkboxValue" (ngModelChange)="onCheckboxValueChange()" />
+<label>
+  Checkbox
+</label>
