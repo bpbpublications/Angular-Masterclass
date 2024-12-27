@@ -1,0 +1,12 @@
+<div>
+    <h4>Reviews</h4>
+    <div *ngIf="product?.reviews == null || product?.reviews?.length === 0">No reviews yet.</div>
+    <div *ngElse>There are {{ product?.reviews?.length }} reviews.
+    <ul>
+        <li *ngFor="let review of product?.reviews">
+            <div>{{ review.comment }}</div>
+            <div>Posted on {{ review.date }}</div>
+        </li>
+    </ul>
+</div>
+</div>

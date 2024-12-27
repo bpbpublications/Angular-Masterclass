@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">fruit-store</string>
+    <string name="title_activity_main">fruit-store</string>
+    <string name="package_name">com.fruitstore.www</string>
+    <string name="custom_url_scheme">com.fruitstore.www</string>
+</resources>

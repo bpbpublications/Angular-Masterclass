@@ -1,0 +1,10 @@
+#home_page {
+    background-color: lightpink;
+    width: 100%;
+    height: 100vh;
+}
+
+.expensive {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+<div id="home_page">
+    <div>Product list
+        <ul>
+            <li *ngFor="let product of products">
+                <div [ngClass]="{'expensive': product.price > 5}" >{{ product.name }} {{ product.price }}</div>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div id="product_page">
+    <div class="product-list">
+        <h4>Product List</h4>
+        <ul>
+            <li *ngFor="let product of products">
+                <a routerLink="details" [queryParams]="{name: product.name}" class="product-link" [routerLinkActive]="getActiveClassName(product)">
+                    <div [ngClass]="{'expensive': product.price > 5}">{{ product.name }} {{ product.price }}</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="product-details">
+        <router-outlet></router-outlet>
+    </div>
+</div>

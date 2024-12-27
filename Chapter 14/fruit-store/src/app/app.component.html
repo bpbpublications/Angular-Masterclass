@@ -1,0 +1,33 @@
+<div class="title">
+    <span class="store-name">{{ getStoreName() }}</span>
+</div>
+<ul class="menu">
+    <li class="menu-item">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+            Home
+        </a>
+    </li>
+    <li class="menu-item">
+        <a routerLink="/products" routerLinkActive="active">
+            Products
+        </a>
+    </li>
+    <li class="menu-item">
+        <a routerLink="/deals" routerLinkActive="active">
+            Deals
+        </a>
+    </li>
+    <li class="menu-item">
+        <a routerLink="/contact" fragment="chat" routerLinkActive="active">
+            Contact Us
+        </a>
+    </li>
+    <li class="menu-item">
+        <a routerLink="/orders" routerLinkActive="active">
+            Orders
+        </a>
+    </li>
+</ul>
+<div class="main">
+    <router-outlet></router-outlet>
+</div>

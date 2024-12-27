@@ -1,0 +1,27 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <h2>Please submit the form below to contact us</h2>
+    <div class="form-control">
+        <label for="first_name">Your name</label>
+        <div>
+            <input id="first_name" type="text" formControlName="firstName">
+            <div *ngIf="contactForm.get('firstName')?.invalid && (contactForm.get('firstName')?.dirty || contactForm.get('firstName')?.touched)"
+                class="error-msg">Please enter a name</div>
+        </div>
+    </div>
+    <div class="form-control">
+        <label for="email">Email</label>
+        <input id="first_name" type="text" formControlName="email">
+    </div>
+    <div class="form-control">
+        <label for="category">Issue Category</label>
+        <select id="category" formControlName="category">
+            <option *ngFor="let category of categories" [value]="category">{{category}}</option>
+        </select>
+    </div>
+    <div class="form-control">
+        <label for="description">Description</label>
+        <textarea type="text" id="description" formControlName="description"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+<p>Value: {{ contactForm.value | json }}</p>

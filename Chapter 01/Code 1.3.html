@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <style>
+        #parent {
+          padding: 50px;
+        }
+        
+        button {
+          color: dodgerblue;
+          background-color: white;
+          border: 1px solid dodgerblue;
+          padding: 10px 20px;
+          border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <button id="child">Click me</button>
+    </div>
+    <script>
+        document.getElementById("child").addEventListener("click", showAlert);
+        function showAlert() {
+            alert('The button is clicked!');
+        }
+    </script>
+</body>
+</html>

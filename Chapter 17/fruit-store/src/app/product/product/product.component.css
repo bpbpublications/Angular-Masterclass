@@ -1,0 +1,26 @@
+#product_page {
+    display:flex;
+}
+
+.product-list {
+    width: 30%;
+}
+
+.product-link {
+    display: block;
+    padding: 5px;
+    margin: 5px 15px;
+}
+
+.product-link.active{
+    background-color: #cfd8dc;
+    font-weight: bold;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.apple {
+    background-color: red;
+}
