@@ -1,0 +1,5 @@
+<div class="button">
+    <input type="checkbox" class="checkbox" [(ngModel)]="checked" >
+    <div class="knob" [@toggle]="checked ? 'on' : 'off'"></div>
+    <div class="layer"></div>
+</div>
