@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1715142135506,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-ASW6NXZD.js",
+        "/chunk-OPTALOPX.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-DWR65DVK.js",
+        "/manifest.webmanifest",
+        "/polyfills-S3BTP7ME.js",
+        "/styles-T3MEGDVA.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/apple.png",
+        "/assets/images/banana.png",
+        "/assets/images/blueberry.png",
+        "/assets/images/grapes.png",
+        "/assets/images/guava.png",
+        "/assets/images/orange.png",
+        "/assets/images/strawberry.png",
+        "/assets/images/watermelon.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/assets/images/apple.png": "6f5132c2c08abfcc9ced3d21f37db60948492b7d",
+    "/assets/images/banana.png": "3de7130c35d89ad01ffdbf3b25edd6a5d4361ed9",
+    "/assets/images/blueberry.png": "78539c8e5e0989c269a35c32a021af6bba7de9ca",
+    "/assets/images/grapes.png": "a22e5da62554ac0980e62656e4a32b71e66e9a4a",
+    "/assets/images/guava.png": "7dcad5893085486ef4a5538253fd8c467a767730",
+    "/assets/images/orange.png": "f3a748801d832418b01e68923fe1a78bb53d74d9",
+    "/assets/images/strawberry.png": "44b43d9c84da41bd157a36ae730ce4a7365f5cbd",
+    "/assets/images/watermelon.png": "10c974b3308a6bd4124cc163af67c97cfcfe788a",
+    "/chunk-ASW6NXZD.js": "9890d850b4f1ec8fd1d722b3772a5c59988ec3ae",
+    "/chunk-OPTALOPX.js": "806f756320f82471f48cad0b1f776e224882b1d6",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/index.html": "cc0c478b26b65631f09e9a3cc212a1f4a23311af",
+    "/main-DWR65DVK.js": "dbc774301d2ab5b29a65c16cb394264337328112",
+    "/manifest.webmanifest": "1a1cfde454303a4be99f42182fe97690e59ec862",
+    "/polyfills-S3BTP7ME.js": "893d641030c187f109c667de1b0a73a03095fa3b",
+    "/styles-T3MEGDVA.css": "658ef07b8aeb84e8c3b75f4369034007c1b0ccff"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
